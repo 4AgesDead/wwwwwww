@@ -43,7 +43,7 @@ class Works():
             print('diff', self.list_quest[self.random_numb][0].diff)
             self.list_quest[self.random_numb][0].user_answer = input("ur answer ")
         else:
-            self.build_question()
+            self.work()
 
     def build_feedback(self):
         if self.list_quest[self.random_numb][0].is_correct():
